@@ -1,0 +1,49 @@
+
+body, html {
+    overflow-wrap: break-word;
+
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    padding: 4px;
+    margin: 0 auto;
+    width: 550px;
+}
+
+table, td, th {
+    border: 2px dashed #aaa;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {border: 1px dashed #aaa;}
+    50%{border: 1px dotted #aaa;}
+   to {border: 1px dashed #aaa;}
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 90%;
+}
+
